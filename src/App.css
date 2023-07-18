@@ -20,3 +20,9 @@
 nav{
   height: 45px;
 }
+
+.table-hover tbody tr:hover td,.table-hover tbody tr:hover th{
+  background:purple;
+  color: #fff;
+  cursor: pointer;
+}
