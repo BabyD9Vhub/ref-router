@@ -9,6 +9,7 @@ import { useRef } from 'react';
 
 export function Layout() {
   return (
+
     <nav className='bg-secondary p-2 mb-3 text-center '>
       <NavLink to="/" className="link" style={({ isActive }) => {
         return {
@@ -99,7 +100,7 @@ function Product() {
 function App() {
   return (
 
-    <BrowserRouter>
+    <BrowserRouter basename='myfirstpage'>
       {/*  //if you wanna use URL you should create this Element and cover this Element all */}
       <Container className='bg-light p-2 my-3' >
         <Routes>
